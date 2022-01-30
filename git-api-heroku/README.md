@@ -85,6 +85,29 @@ git push origin main
 ```
 It puts your changes in main into the remote origin. You should be able to see your changes inside of GitHub.
 
+If you want to fetch your changes from GitHub (as if someone made a change to it, and you need to update your directory locally), then you can just run this command. 
+```
+$ git fetch origin (name of the remote)
+```
+And if you want to merge changes from remote, after calling fetch, you can run this command. 
+```
+$ git checkout origin/[remote branch name] --track
+```
+
+#### Combining Branches into One
+There will be a time when you want to combine the work of two banches into one. You can do the following. 
+```
+$ git merge [branch name]
+```
+This merge the changes from [branch name] into your current branch. Same can be applied to changes from remote. 
+```
+$ git merge [remote reference]/[branch name] 
+```
+Here is an example
+```
+$ git merge origin/main
+```
+
 #### Let's Talk about that Template API
 Let's practice Git with the Template API.
 First download the Template API from GitHub. 
