@@ -1,6 +1,7 @@
 ```bash
 $ npx create-next-app@latest --ts
 $ cd (app name)
+$ npm i sass
 $ npm install @mui/material @emotion/react @emotion/styled
 $ rm -rf styles/*
 ```
@@ -41,7 +42,6 @@ module.exports = {
 ```
 
 ```bash
-$ npm i sass
 $ npm run dev
 ```
 
