@@ -4,6 +4,10 @@ Start By Running These Commands
 ```bash
 $ npx create-next-app@latest --ts
 $ cd (app name)
+<<<<<<< HEAD
+=======
+$ npm i sass
+>>>>>>> origin/nextjs-css
 $ npm install @mui/material @emotion/react @emotion/styled
 ```
 If you run 
@@ -57,7 +61,7 @@ module.exports = {
 ```
 
 ```bash
-$ npm i sass
+$ npm run dev
 ```
 https://nextjs.org/docs/messages/install-sass
 
@@ -73,4 +77,4 @@ Tutorial List
 5. [image](nextjs-example/pages/lessons/image)
 6. [mui](nextjs-example/pages/lessons/mui)
 7. [nav-bar](nextjs-example/pages/lessons/nav-bar)
-8. [iterate-list](nextjs-example/pages/lessons/sass-style)
+8. [iterate-list](nextjs-example/pages/lessons/iterate-list)
