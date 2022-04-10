@@ -1,0 +1,22 @@
+{
+  "name": "node-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "start": "node dist/src/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "script": "ts-node "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.7.0"
+  },
+  "engines": {
+    "node": "16.x.x"
+  }
+}
