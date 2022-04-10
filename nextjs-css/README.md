@@ -4,10 +4,7 @@ Start By Running These Commands
 ```bash
 $ npx create-next-app@latest --ts
 $ cd (app name)
-<<<<<<< HEAD
-=======
 $ npm i sass
->>>>>>> origin/nextjs-css
 $ npm install @mui/material @emotion/react @emotion/styled
 ```
 If you run 
